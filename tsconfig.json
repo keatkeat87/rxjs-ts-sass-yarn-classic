@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "module": "es2020",
+    "target": "es2017",
+    "lib": ["DOM", "DOM.Iterable", "ES2017", "ES2019.Array", "ES2019.Object"],
+    // "allowJs": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    // note: 解忧
+    // 目前是 flatpickr 需要到
+    // refer : https://stackoverflow.com/questions/53885107/typescript-cant-find-module-flatpickr-even-though-it-includes-typescript-types
+    "moduleResolution": "node",
+    // note: 解忧:
+    // 开启的话在 Visual Studio 2022 rebuild 的时候会出现很多 library .d.ts 的 error, 索性 skip library check 呗, 不用烦
+    "skipLibCheck": true
+  },
+  "exclude": ["wwwroot/assets"]
+}

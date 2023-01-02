@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["about.ts"],
+  "sourcesContent": ["alert('hello world');\r\n"],
+  "mappings": ";;;AAAA,QAAM,aAAa;",
+  "names": []
+}

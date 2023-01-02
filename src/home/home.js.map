@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../module/core.ts", "home.ts"],
+  "sourcesContent": ["export const value = 'Hello World';\r\n", "import { value } from '../module/core';\r\nalert(value);\r\n"],
+  "mappings": ";;;AAAO,MAAM,QAAQ;;;ACCrB,QAAM,KAAK;",
+  "names": []
+}
