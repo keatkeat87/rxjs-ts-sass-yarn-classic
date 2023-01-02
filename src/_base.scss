@@ -1,0 +1,11 @@
+@use './module/reset';
+
+:root {
+  --font-family-primary: 'Mulish', sans-serif;
+  --font-family-accent: 'Taviraj', serif;
+}
+body {
+  font-family: var(--font-family-primary);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Taviraj:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500&display=swap');
