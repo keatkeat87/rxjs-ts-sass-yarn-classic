@@ -1,8 +1,40 @@
 @use '../base';
 
 body {
-  h1 {
-    font-size: 3rem;
-    color: red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 400px;
+    aspect-ratio: 1 / 1;
+    padding: 2rem;
+    border: 1px solid black;
+
+    h1 {
+      font-size: 3rem;
+      color: pink;
+    }
+
+    button {
+      margin-top: 1rem;
+      background-color: lightblue;
+      padding: 1rem 2rem;
+      font-size: 24px;
+      border-width: 0;
+      cursor: pointer;
+    }
+
+    img {
+      margin-top: 2rem;
+      width: 100%;
+      height: auto;
+    }
+
+    svg {
+      width: 100px;
+      height: 100px;
+    }
   }
 }

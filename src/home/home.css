@@ -14,7 +14,36 @@ body {
   font-family: var(--font-family-primary);
 }
 
-body h1 {
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  width: 400px;
+  aspect-ratio: 1/1;
+  padding: 2rem;
+  border: 1px solid black;
+}
+body .container h1 {
   font-size: 3rem;
-  color: red;
+  color: pink;
+}
+body .container button {
+  margin-top: 1rem;
+  background-color: lightblue;
+  padding: 1rem 2rem;
+  font-size: 24px;
+  border-width: 0;
+  cursor: pointer;
+}
+body .container img {
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+}
+body .container svg {
+  width: 100px;
+  height: 100px;
 }/*# sourceMappingURL=home.css.map */

@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node esbuild.js"
+    "start": "node esbuild.js",
+    "svg": "gulp spriteSvgIcon",
+    "email": "gulp emailTemplateInlineCss"
   },
   "browserslist": [
     "since 2021 and not ios < 15"
@@ -21,6 +23,9 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "glob": "^8.0.3",
+    "gulp": "^4.0.2",
+    "gulp-inline-css": "^4.0.0",
+    "gulp-svg-sprite": "^2.0.1",
     "prettier": "^2.8.1",
     "stylelint": "^14.16.1",
     "stylelint-config-prettier": "^9.0.4",
