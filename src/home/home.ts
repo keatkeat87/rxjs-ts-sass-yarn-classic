@@ -1,2 +1,2 @@
 import { value } from '../module/core';
-alert(value);
+alert(value + 'haha');

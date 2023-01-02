@@ -4,6 +4,6 @@
   var value = "Hello World";
 
   // src/home/home.ts
-  alert(value);
+  alert(value + "haha");
 })();
 //# sourceMappingURL=home.js.map
